@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@300;400;600&display=swap" rel="stylesheet">
+    <title> A CORRIDA </title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="cenario-passo0.png" alt="Relâmpago McQueen pronto para a corrida">
+            <p>Você é o Relâmpago McQueen, pronto para a grande corrida da temporada! A multidão está torcendo, e você está concentrado na linha de partida.</p>
+            <button class="btn-proximo" data-proximo="1">Acelerar no início</button>
+            <button class="btn-proximo" data-proximo="2">Economizar energia e acelerar depois</button>
+        </div>
+
+        <div class="passo" id="passo-1">
+            <img src="cenario-passo2.png">
+            <p>Você acelera com força total e assume a liderança, mas agora seus pneus estão começando a desgastar. O que fazer?</p>
+            <button class="btn-proximo" data-proximo="3">Continuar acelerando</button>
+            <button class="btn-proximo" data-proximo="4">Parar para trocar os pneus</button>
+        </div>
+
+        <div class="passo" id="passo-2">
+            <img src="01.jpeg">
+            <p>Você economiza energia e fica em uma posição média, mas agora está pronto para acelerar. No entanto, outros corredores estão na sua frente.</p>
+            <button class="btn-proximo" data-proximo="5">Acelerar para ultrapassar</button>
+            <button class="btn-proximo" data-proximo="6">Esperar uma oportunidade melhor</button>
+        </div>
+
+        <div class="passo" id="passo-3">
+            <img src="pnus.jpeg">
+            <p>Você continuou acelerando, mas os pneus não aguentaram. Sua velocidade diminui e os oponentes passam por você.</p>
+            <button class="btn-proximo" data-proximo="7">Tentar recuperar</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <img src="cenario-passo1.png">
+            <p>Após a troca de pneus, você volta com tudo e consegue se aproximar dos líderes.</p>
+            <button class="btn-proximo" data-proximo="8">Fazer uma ultrapassagem arriscada</button>
+            <button class="btn-proximo" data-proximo="9">Esperar a reta final</button>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <img src="02.jpeg">
+            <p>Você ultrapassa alguns competidores, mas perde velocidade no final da corrida.</p>
+            <button class="btn-proximo" data-proximo="10">Tentar uma última aceleração</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <img src="04.jpeg">
+            <p>Você esperou demais e a oportunidade passou. Outros corredores levam vantagem.</p>
+            <button class="btn-proximo" data-proximo="7">Tentar recuperar posição</button>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <img src="perdeu.jpeg">
+            <p>Infelizmente, você terminou a corrida, mas não foi desta vez que venceu. Fim da corrida!</p>
+        </div>
+
+        <div class="passo" id="passo-8">
+            <img src="03.jpeg">
+            <p>Com uma manobra arriscada, você ultrapassa os competidores e assume a liderança!</p>
+            <button class="btn-proximo" data-proximo="11">Cruzar a linha de chegada</button>
+        </div>
+
+        <div class="passo" id="passo-9">
+            <img src="03.jpeg">
+            <p>Você aguarda o momento certo e acelera na reta final, passando à frente de todos!</p>
+            <button class="btn-proximo" data-proximo="11">Cruzar a linha de chegada</button>
+        </div>
+
+        <div class="passo" id="passo-10">
+            <img src="cenario-passo1.png">
+            <img src="perdeu.jpeg">
+            <p>Apesar da tentativa final, você não conseguiu alcançar os líderes. Fim da corrida.</p>
+        </div>
+
+        <div class="passo" id="passo-11">
+            <img src="venceu.jpeg"> Relâmpago McQueen cruzando a linha de chegada em primeiro lugar
+            <p>Parabéns! Você cruzou a linha de chegada em primeiro lugar e venceu a corrida! A multidão está em êxtase com sua vitória!</p>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
